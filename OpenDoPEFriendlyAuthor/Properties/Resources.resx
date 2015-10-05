@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DropDownPlaceholder" xml:space="preserve">
+    <value>Choose...</value>
+    <comment>Placeholder for a drop-down list CC.</comment>
+  </data>
+  <data name="NoNamespace" xml:space="preserve">
+    <value>(no namespace)</value>
+    <comment>Text used for the part name when the part has a null namespace.</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ErrorSaveSettings" xml:space="preserve">
+    <value>Your updated settings could not be saved. Any changes will be lost.</value>
+  </data>
+  <data name="LoadingMessage" xml:space="preserve">
+    <value>Loading...</value>
+    <comment>Message while the file is loading.</comment>
+  </data>
+  <data name="ChangePartNameErrorMessage" xml:space="preserve">
+    <value>The friendly name for this custom XML part could not be changed.</value>
+    <comment>Message on failure to change friendly part name in Schema Library.</comment>
+  </data>
+  <data name="PlainTextPlaceholder" xml:space="preserve">
+    <value>Click here to enter text.</value>
+    <comment>Placeholder for a plain text CC.</comment>
+  </data>
+  <data name="LoadingMessageWithPercentage" xml:space="preserve">
+    <value>Loading...
+{0}%</value>
+    <comment>Message while the file is loading, if it takes a long time. {0} = current percentage loaded.</comment>
+  </data>
+  <data name="AddNewDataSource" xml:space="preserve">
+    <value>(Add New Part...)</value>
+    <comment>Adding a new XML file.</comment>
+  </data>
+  <data name="ErrorOnPartAdd" xml:space="preserve">
+    <value>This XML file could not be added: 
+
+{0}</value>
+    <comment>Error message that appears when a part cannot be added. {0} = error message from Word.</comment>
+  </data>
+  <data name="DeletePartMessage" xml:space="preserve">
+    <value>Deleting this data source will affect any content controls in your document that are bound to it.
+
+Are you sure you want to delete it?</value>
+    <comment>String displayed to confirm part deletion.</comment>
+  </data>
+  <data name="FileNotValidXml" xml:space="preserve">
+    <value>The file specified does not contain valid XML:
+
+{0}</value>
+  </data>
+  <data name="ErrorDeletePart" xml:space="preserve">
+    <value>The selected data source could not be deleted:
+
+{0}</value>
+    <comment>Message on delete failure.</comment>
+  </data>
+  <data name="TaskPaneName" xml:space="preserve">
+    <value>XML Mapping</value>
+    <comment>Title of the task pane.</comment>
+  </data>
+  <data name="DialogTitle" xml:space="preserve">
+    <value>XML Mapping Task Pane</value>
+  </data>
+  <data name="NumberedItem" xml:space="preserve">
+    <value>{0} ({1})</value>
+    <comment>Item in the part list. {0} = part name, {1} = index.</comment>
+  </data>
+  <data name="RibbonIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RibbonIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatePlaceholder" xml:space="preserve">
+    <value>Click here and enter a date.</value>
+    <comment>Placeholder for a date CC.</comment>
+  </data>
+  <data name="Line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Line.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>The specified file could not be located.</value>
+    <comment>Error message when the file specified in Add New does not exist.</comment>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Finish</value>
+    <comment>Button text for the Finish button in the wizard.</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next &gt;</value>
+    <comment>Button text for the Next button in the wizard.</comment>
+  </data>
+  <data name="StringNotValidXml" xml:space="preserve">
+    <value>The string specified does not contain valid XML:
+
+{0}</value>
+  </data>
+  <data name="DeleteNodeMessage" xml:space="preserve">
+    <value>Deleting this node will affect any controls in your document that are bound to it. Are you sure?</value>
+  </data>
+  <data name="ErrorDeletingNode" xml:space="preserve">
+    <value>This node could not be deleted:
+
+{0}</value>
+  </data>
+  <data name="ErrorAddComboBox" xml:space="preserve">
+    <value>A combo box content control cannot be applied to the current selection.
+
+{0}</value>
+  </data>
+  <data name="ErrorAddDate" xml:space="preserve">
+    <value>A date picker content control cannot be applied to the current selection.
+
+{0}</value>
+  </data>
+  <data name="ErrorAddDropDown" xml:space="preserve">
+    <value>A drop-down list content control cannot be applied to the current selection.
+
+{0}</value>
+  </data>
+  <data name="ErrorAddPicture" xml:space="preserve">
+    <value>A picture content control cannot be applied to the current selection.
+
+{0}</value>
+  </data>
+  <data name="ErrorAddPlainText" xml:space="preserve">
+    <value>A plain text content control cannot be applied to the current selection.
+
+{0}</value>
+  </data>
+  <data name="Namespace" xml:space="preserve">
+    <value>Namespace</value>
+  </data>
+  <data name="Prefixes" xml:space="preserve">
+    <value>Prefix Mappings</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Node Type</value>
+  </data>
+  <data name="XML" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="XPath" xml:space="preserve">
+    <value>XPath</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="CDATA" xml:space="preserve">
+    <value>CData Section</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="CompleteXMLDocument" xml:space="preserve">
+    <value>Complete XML Document</value>
+  </data>
+  <data name="Element" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="ErrorAddingNode" xml:space="preserve">
+    <value>This node could not be added:
+
+{0}</value>
+  </data>
+  <data name="ErrorNoName" xml:space="preserve">
+    <value>An element or attribute must have a non-empty name.</value>
+  </data>
+  <data name="ProcessingInstruction" xml:space="preserve">
+    <value>Processing Instruction</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ErrorRenamingNode" xml:space="preserve">
+    <value>The text node could not be renamed:
+
+{0}</value>
+  </data>
+  <data name="CoreFilePropertiesName" xml:space="preserve">
+    <value>Core File Properties</value>
+  </data>
+  <data name="CoverPagePropertiesName" xml:space="preserve">
+    <value>Cover Page Properties</value>
+  </data>
+  <data name="ExtendedFilePropertiesName" xml:space="preserve">
+    <value>Extended File Properties</value>
+  </data>
+  <data name="Locale" xml:space="preserve">
+    <value>1033</value>
+    <comment>The locale of this set of resources.</comment>
+  </data>
+</root>

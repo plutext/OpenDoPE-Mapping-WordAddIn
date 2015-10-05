@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+        <tabs>
+            <tab id="tabOpenDoPEAuthorFriendly" label="Authoring">
+                <group id="groupMapping" label="Start">
+                    <toggleButton id="toggleButtonMapping" imageMso="ControlPropertyRulesAction" onAction="toggleButtonMapping_Click" 
+                                  keytip="M" screentip="Start/continue authoring" 
+                                  supertip="Show/hide the task pane.  Will setup the document first, if necessary." 
+                                  label="Show XML" size="large" />
+                  <!-- other possible images we could use
+                  
+CodeHyperlinkForward
+ContentControlBuildingBlockGallery
+ControlPropertyRulesAction
+FieldsPaneShowHide
+PageTransition
+SaveAsWordXml
+TagToolbar                  
+                  -->
+                    <button id="buttonReplaceXML" imageMso="ReviewTrackChanges" onAction="buttonReplaceXML_Click"
+                            screentip="Swap existing XML sample" label="Replace XML" size="large"
+                            getEnabled="isButtonReplaceXMLEnabled"/>
+                </group>
+                <group id="groupControls" label="Control Structures">
+                    <button id="buttonBind" imageMso="AutoCorrect" onAction="buttonBind_Click" getEnabled="isButtonBindEnabled" 
+                            supertip="Use this if you want to manually enter an XPath.  Otherwise it is easier to drag/drop." label="Add Data Value" size="large" />
+                    <button id="buttonCondition" imageMso="MacroConditions" onAction="buttonCondition_Click" getEnabled="isButtonConditionEnabled"
+                            screentip="Make selection conditional" supertip="Wrap selection in conditional content control" label="Add Condition" size="large" />
+                    <button id="buttonRepeat" imageMso="OutlineShowDetail" onAction="buttonRepeat_Click" getEnabled="isButtonRepeatEnabled"
+                            screentip="Make selection repeat" supertip="Wrap selection in repeat content control" label="Add Repeat" size="large" />
+                    <button id="buttonEdit" imageMso="ReviewTrackChanges" onAction="buttonEdit_Click" getEnabled="isButtonEditEnabled"
+                            screentip="Edit this repeat or condition" label="Edit" size="large" />
+                    <button id="buttonDelete" imageMso="WatermarkRemove" onAction="buttonDelete_Click" getEnabled="isButtonDeleteEnabled"
+                            screentip="Remove control (but keep contents)" label="Remove control" size="large" />
+                </group>
+                <group id="groupAdvanced" label="Advanced">
+                    <toggleButton id="toggleButtonDesignMode" imageMso="DesignMode" onAction="toggleButtonDesignMode_Click" 
+                                  label="Design Mode" size="large" />
+                    <button id="buttonClearAll" imageMso="WatermarkRemove" onAction="buttonClearAll_Click" getEnabled="isButtonClearAllEnabled"
+                            screentip="Remove template functionality from this docx" label="Remove mappings" size="large" />
+                    <menu id="menuAdvanced" imageMso="GroupTools" label="Settings" size="large">
+                        <button id="buttonPartSelect" imageMso="ContentControlBuildingBlockGallery" onAction="buttonPartSelect_Click" 
+                                label="Switch XML part" />
+                        <button id="buttonXmlOptions" imageMso="GroupTools" onAction="buttonXmlOptions_Click" 
+                                label="XML Options" />
+                    </menu>
+                </group>
+                <group id="groupAbout" label="About">
+                    <button id="buttonAbout" imageMso="Info" onAction="buttonAbout_Click" 
+                            label="About" size="large" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+  <contextMenus>
+    <contextMenu idMso="ContextMenuText">
+      <button id="odStylesText" label="XHTML Style" onAction="ContextMenuText_odStyles_Click" 
+              getEnabled="isContextMenuStylesOverridden" />
+      
+      <gallery idMso="QuickStylesGallery"  visible="false" />
+      
+      <menu id="MySubMenu" label="Styles" getEnabled="isContextMenuStyleRetained" >
+        <gallery idMso="QuickStylesGallery"/>
+      </menu>
+    </contextMenu>
+    <contextMenu idMso="ContextMenuSpell">
+      <button id="odStylesSpell" label="Styles2" onAction="ContextMenuText_odStyles_Click" getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuGrammar">
+      <button id="odStylesGrammar" label="Styles2" onAction="ContextMenuText_odStyles_Click" getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuList">
+      <button id="odStylesList" label="XHTML Style" onAction="ContextMenuText_odStyles_Click" 
+              getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuTextTable">
+      <button id="odStylesTextTable" label="XHTML Style" onAction="ContextMenuText_odStyles_Click"
+              getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    <!--
+    <contextMenu idMso="ContextMenuTableCell">
+      <button id="odStylesTableCell" label="XHTML Style" onAction="ContextMenuText_odStyles_Click"
+              getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuHeaderArea">
+      <button id="odStyles4" label="Styles2" onAction="ContextMenuText_odStyles_Click" getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuFooterArea">
+      <button id="odStyles5" label="Styles2" onAction="ContextMenuText_odStyles_Click" getEnabled="isContextMenuStylesOverridden" />
+    </contextMenu>
+    -->
+  </contextMenus>
+</customUI>

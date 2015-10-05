@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<invoice>
+  <customer>
+    <name>Jason H</name>
+  </customer>
+  <items>
+    <item>
+      <name>apples</name>
+      <price>$20</price>
+    </item>
+    <item>
+      <name>figs</name>
+      <price>$30</price>
+    </item>
+    <item>
+      <name>blueberries</name>
+      <price>$40</price>
+    </item>
+  </items>
+  <misc>
+    <includeBankDetails>true</includeBankDetails>
+    <wantspam>false</wantspam>
+    <taxes>
+      <tax>
+        <name>VAT</name>
+        <rate>5</rate>
+      </tax>
+    </taxes>
+  </misc>
+</invoice>
