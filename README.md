@@ -21,6 +21,9 @@ Generally, the user can set the binding in 3 ways:
 
 (see further OpenDoPEFriendlyAuthor\cc_matrix.docx)
 
+This solution uses project https://github.com/plutext/OpenDoPE-Model
+so you should get that, then adjust your project references to use it.
+
 # License
 
 This project is based on https://xmlmapping.codeplex.com/

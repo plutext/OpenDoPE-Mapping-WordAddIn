@@ -452,17 +452,17 @@
     <Folder Include="SpecialCustomXmlParts\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenDoPEModel\OpenDoPEModel.csproj">
-      <Project>{D78A1993-D06B-4C46-8548-69E68BDFE336}</Project>
-      <Name>OpenDoPEModel</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="README.txt" />
     <None Include="TODO.txt" />
     <EmbeddedResource Include="Ribbon.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\OpenDoPE-Model\OpenDoPEModel\OpenDoPEModel.csproj">
+      <Project>{D78A1993-D06B-4C46-8548-69E68BDFE336}</Project>
+      <Name>OpenDoPEModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <!-- Include the build rules for a C# project. -->
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
