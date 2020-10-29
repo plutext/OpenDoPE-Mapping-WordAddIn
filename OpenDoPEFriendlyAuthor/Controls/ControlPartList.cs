@@ -185,7 +185,11 @@ namespace XmlMappingTaskPane.Controls
             int index = 0;
             foreach (Office.CustomXMLPart currentPart in CurrentPartCollection)
             {
-                if (OpenDoPEModel.Model.isOpenDoPEPart(currentPart)) {
+                if (currentPart.NamespaceURI.StartsWith("http://opendope.org/answers"))
+                {
+                    // 2018 06 25 Allow this addin to work with OpenDoPE answer file format
+
+                } else if (OpenDoPEModel.Model.isOpenDoPEPart(currentPart) ) {
                     // Don't list these
                     continue;
                 }

@@ -36,10 +36,10 @@
     <UpgradeBackupLocation />
     <IsWebBootstrapper>True</IsWebBootstrapper>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <PublishUrl>c:\publish\authoring-csec\</PublishUrl>
-    <InstallUrl>http://www.opendope.org/downloads/authoring-csec/</InstallUrl>
+    <PublishUrl>c:\publish\authoring-friendly\</PublishUrl>
+    <InstallUrl>http://www.opendope.org/downloads/authoring-friendly/</InstallUrl>
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.36</ApplicationVersion>
+    <ApplicationVersion>1.0.0.37</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>1</UpdateInterval>
@@ -153,11 +153,10 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>
-    </ManifestKeyFile>
+    <ManifestKeyFile>PlutextCodeSigning2017.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>CE4D6558E93ED5A5047BB07E6D9CE03BCE21432F</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>C5E9E19D6EF0483946495869882DE1ED20356244</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
@@ -428,6 +427,7 @@
     <None Include="foo.snk" />
     <None Include="Plutext.snk" />
     <None Include="PlutextCodeSigning2011.pfx" />
+    <None Include="PlutextCodeSigning2017.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
