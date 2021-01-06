@@ -36,7 +36,7 @@ namespace XmlMappingTaskPane.Forms
             HtmlDocument doc = this.webBrowser1.Document;
             doc.Write(String.Empty);
 
-            this.webBrowser1.DocumentText = "<html><body><p><b>OpenDoPE authoring Word Add-In, version 1.1, March 2013</b></p>"
+            this.webBrowser1.DocumentText = "<html><body><p><b>OpenDoPE authoring Word Add-In, version 1.2, Jan 2021</b></p>"
                 + "<p>This basic authoring tool is designed to support merging of XML data at run time.</p>"
                 + "<p>Compared to our FabDocx authoring tool, this authoring tool:</p>"
                 +"<ul>"
@@ -45,7 +45,7 @@ namespace XmlMappingTaskPane.Forms
                 + "<li>does not create questions for interactive use (the main FabDocx use case)</li>"
                 + "</ul>"
                 + "<p>For discussion, try <a href='http://www.docx4java.org/forums/data-binding-java-f16/'>this forum</a></p>"
-                + "<p>(c) Copyright Plutext Pty Ltd, portions copyright Microsoft Corporation</p></body></html>";
+                + "<p>(c) Copyright 2013-2021 Plutext Pty Ltd, portions copyright Microsoft Corporation</p></body></html>";
 
         }
     }

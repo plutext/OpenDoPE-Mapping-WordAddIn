@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDoPEFriendlyAuthor", "OpenDoPEFriendlyAuthor\OpenDoPEFriendlyAuthor.csproj", "{6DE3CF41-DB9A-48B7-88B2-92565A32F2E9}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OpenDoPEFriendlySetup", "OpenDoPEFriendlySetup\OpenDoPEFriendlySetup.vdproj", "{7DFC2A32-E509-496E-8A8A-75DE3EECBE96}"
